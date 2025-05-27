@@ -94,7 +94,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1.5
   moveRunningSpeed: 3
+  rotationDamp: 10
   gravity: -9.81
+  cameraTransform: {fileID: 3015286712035886754}
   animator: {fileID: 4189292263927574261}
 --- !u!143 &7568100243020282201
 CharacterController:
