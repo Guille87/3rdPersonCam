@@ -92,8 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3623553d6d5e97248ad3d1fe5fc1d587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1.5
-  moveRunningSpeed: 3
+  moveSpeed: 2
+  moveRunningSpeed: 5
   rotationDamp: 10
   gravity: -9.81
   cameraTransform: {fileID: 3015286712035886754}
@@ -119,7 +119,7 @@ CharacterController:
   m_Height: 2.1
   m_Radius: 0.35
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.5
   m_SkinWidth: 0.0035
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.05, z: 0}
@@ -153,8 +153,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5544174603775794252}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.041558642, y: -0.000000027865795, z: 0.000000001159066, w: 0.9991361}
-  m_LocalPosition: {x: 0, y: 1.9, z: -6}
+  m_LocalRotation: {x: 0.036709316, y: 0.8674022, z: 0.06471718, w: -0.49201378}
+  m_LocalPosition: {x: 4.292068, y: 0.65, z: 2.5647907}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -237,7 +237,7 @@ MonoBehaviour:
     SplineCurvature: 0.5
   RecenteringTarget: 2
   HorizontalAxis:
-    Value: 0
+    Value: -120.86107
     Center: 0
     Range: {x: -180, y: 180}
     Wrap: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
       Time: 2
     Restrictions: 0
   VerticalAxis:
-    Value: 17.5
+    Value: -10
     Center: 17.5
     Range: {x: -10, y: 45}
     Wrap: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
         LegacyInput: 
         LegacyGain: 1
         CancelDeltaTime: 0
-      InputValue: 0
+      InputValue: -0
       Driver:
         AccelTime: 0.2
         DecelTime: 0.2
@@ -363,7 +363,7 @@ MonoBehaviour:
         LegacyInput: 
         LegacyGain: 1
         CancelDeltaTime: 0
-      InputValue: 0
+      InputValue: -0
       Driver:
         AccelTime: 0
         DecelTime: 0
