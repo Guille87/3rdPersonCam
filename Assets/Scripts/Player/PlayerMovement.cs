@@ -8,13 +8,13 @@ public class PlayerMovement : MonoBehaviour
 
     PlayerInput playerInput;
     CharacterController characterController;
-    Animator animator;
+    [SerializeField] Animator animator;
 
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();
         characterController = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
 
     void Update()
